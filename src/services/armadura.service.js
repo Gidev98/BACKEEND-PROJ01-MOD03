@@ -65,9 +65,32 @@ const findByIdArmaduraService = (idParam) => {
   return armadura;
 };
 
+const createArmaduraService = (newArmadura) =>{
+    const newId = armaduras.length +1;
+    newArmadura.id = newId;
+    armaduras.push(newArmadura);
 
+    return newArmadura
+}
+
+const updateArmaduraService = (id, armaduraEdit) => {
+    armaduraEdit['id'] = id;
+    const armaduraIndex = armaduras.findIndex((armadura)=> armadura.id == id);
+    armaduras[armaduraIndex] = armaduraEdit;
+
+    return armaduraEdit;
+}
+
+const deleteArmaduraService = (id) =>{
+    const armaduraIndex = armaduras.findIndex((armadura) => armadura.id == id);
+
+    return armaduras.splice(armaduraIndex, 1);
+}
 
 module.exports = {
   findAllArmaduraService,
   findByIdArmaduraService,
+  createArmaduraService,
+  updateArmaduraService,
+  deleteArmaduraService,
 };
