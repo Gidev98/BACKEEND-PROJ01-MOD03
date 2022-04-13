@@ -15,11 +15,11 @@ const armaduras = [
     descricao:
       'A armadura de Aquário é a única capaz de atingir o limite máximo do congelamento, o zero absoluto.',
 
-    usuários: 'Camus, Dégel, Koh-í-noor, Tokisada, Mystoria.',
+    usuarios: 'Camus, Dégel, Koh-í-noor, Tokisada, Mystoria.',
 
     background: 'media/aquario-back.jpg',
 
-    imagem: 'media/aquario-card.png',
+    imagem: './assets/media/AQUÁRIO/aquario-card.png',
   },
   {
     id: 2,
@@ -29,11 +29,11 @@ const armaduras = [
     descricao:
       'A Armadura de Áries, é uma das 13 Armaduras de Ouro do exército de Atena. O cavaleiro de Áries é o único que consegue consertar as 88 armaduras dos cavaleiros.',
 
-    usuários: 'Avenir, Gateguard, Kiki, Mu, Shion',
+    usuarios: 'Avenir, Gateguard, Kiki, Mu, Shion',
 
     background: 'media/aries-back.jpg',
 
-    imagem: 'media/aries-card.png',
+    imagem: './assets/media/ÁRIES/aries-card.png',
   },
   {
     id: 3,
@@ -43,11 +43,11 @@ const armaduras = [
     descricao:
       'O cavaleiro de Câncer possui a habilidade de remover a alma do seu oponente e enviá-la para a entrada do Mundo dos Mortos.',
 
-    usuários: 'Lancelot, Manigold, Máscara da Morte, Sage',
+    usuarios: 'Lancelot, Manigold, Máscara da Morte, Sage',
 
     background: 'media/cancer-back.jpg',
 
-    imagem: 'media/cancer-card.png',
+    imagem: './assets/media/CÂNCER/cancer-card.png',
   },
   {
     id: 4,
@@ -57,11 +57,11 @@ const armaduras = [
     descricao:
       'O poder máximo de Capricórnio, no qual seus braços e pernas adquirem o mesmo poder de corte que a lendária espada Excalibur, cortando tudo que for tocado.',
 
-    usuários: 'Shura, Izo, El Cid, Ionia',
+    usuarios: 'Shura, Izo, El Cid, Ionia',
 
-    background: 'media/capricornio-back.jpg',
+    background: '/media/capricornio-back.jpg',
 
-    imagem: 'media/capricornio-card.png',
+    imagem: './assets/media/CAPRICÓRNIO/capricornio-card.png',
   },
 ];
 
