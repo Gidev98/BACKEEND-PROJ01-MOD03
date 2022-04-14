@@ -28,9 +28,8 @@ const createArmaduraController = (req, res) => {
   const armadura = req.body;
 
   if (
-    !armadura ||
     !armadura.nome ||
-    !armadura.descrcao ||
+    !armadura.descricao ||
     !armadura.usuarios ||
     !armadura.background ||
     !armadura.imagem
