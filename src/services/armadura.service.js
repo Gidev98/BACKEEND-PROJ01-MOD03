@@ -54,6 +54,34 @@ const armaduras = [
 
     imagem: './assets/media/CAPRICÓRNIO/capricornio-card.png',
   },
+  {
+    id: 5,
+
+    nome: 'Armadura de Libra',
+
+    descricao:
+      'A Armadura de Libra possui acoplada nela 12 tipos diferentes de armas que só podem ser usadas se o Cavaleiro de Libra e Atena acharem a causa justa, ou seja, uma para cada cavaleiro de ouro utilizar.',
+
+    usuarios: 'Dohko, Shiryu, Genbu',
+
+    background: './assets/media/LIBRA/libra-back.jpg',
+
+    imagem: './assets/media/LIBRA/libra-card.png',
+  },
+  {
+    id: 6,
+
+    nome: 'Armadura de Sagitário',
+
+    descricao:
+      'A Armadura de Sagitário é representada por um centauro com asas. Segundo a mitologia, com o torso e a cabeça de um homem sobre o corpo de um cavalo, o centauro combina a natureza instintiva do animal com a razão e a virtude do homem.',
+
+    usuarios: 'Sísifos, Aioros, Seiya',
+
+    background: '/media/capricornio-back.jpg',
+
+    imagem: './assets/media/SAGITÁRIO/sagitario-card.png',
+  },
 ];
 
 const findAllArmaduraService = () =>{

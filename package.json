@@ -1,0 +1,26 @@
+{
+  "name": "backeend-proj01-mod03",
+  "version": "1.0.0",
+  "description": "![image](https://user-images.githubusercontent.com/97140028/163504066-c2b03b96-3fed-41c4-b8f2-a5cb4c79795b.png)\r ![image](https://user-images.githubusercontent.com/97140028/163504023-7bd05591-081f-45cf-a311-2020ce174dd0.png)\r ![image](https://user-images.githubusercontent.com/97140028/163503992-366f7eae-cb74-424b-ba5f-9931f9607706.png)",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sirdav1d/BACKEEND-PROJ01-MOD03.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sirdav1d/BACKEEND-PROJ01-MOD03/issues"
+  },
+  "homepage": "https://github.com/sirdav1d/BACKEEND-PROJ01-MOD03#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.3",
+    "nodemon": "^2.0.15"
+  }
+}
